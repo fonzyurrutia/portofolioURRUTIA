@@ -6,39 +6,27 @@ import Chip from '@mui/material/Chip';
 import '../assets/styles/Expertise.scss';
 
 const labelsFirst = [
-    "React",
-    "TypeScript",
-    "JavaScript",
-    "HTML5",
-    "CSS3",
-    "SASS",
-    "Flask",
-    "Python",
-    "SQL",
-    "PostgreSQL",
-    "Postman"
+    "Windows OS",
+    "Networking Tools",
+    "Hardware Maintenance Tools",
+    "Anti-virus and Security Tools"
+    
 ];
 
 const labelsSecond = [
-    "Git",
-    "GitHub Actions",
-    "Docker",
-    "AWS",
-    "Azure",
-    "Linux",
-    "Snowflake",
-    "Pandas",
-    "Selenium",
+    "Godot",
+    "PixiEditor",
+    "Photoshop",
+    "OpenAI"
 ];
 
 const labelsThird = [
     "OpenAI",
-    "Groq",
-    "LangChain",
-    "Qdrant",
-    "Hugging Face",
-    "LlamaIndex",
-    "Streamlit",
+    "PerplexityAI",
+    "BardAI",
+    "Github Copilot",
+    "Google Colab",
+
 ];
 
 function Expertise() {
@@ -49,8 +37,8 @@ function Expertise() {
             <div className="skills-grid">
                 <div className="skill">
                     <FontAwesomeIcon icon={faReact} size="3x"/>
-                    <h3>Full Stack Web Development</h3>
-                    <p>I have built a diverse array of web applications from scratch using modern technologies such as React and Flask. I have a strong proficiency in the SDLC process and frontend + backend development.</p>
+                    <h3>Computer Systems Servicing</h3>
+                    <p>I have been awarded the National Certificate II by TESDA. In completing the competency requirements under the Philippine TVET Competency Assessment and Certification System.</p>
                     <div className="flex-chips">
                         <span className="chip-title">Tech stack:</span>
                         {labelsFirst.map((label, index) => (
@@ -61,8 +49,8 @@ function Expertise() {
 
                 <div className="skill">
                     <FontAwesomeIcon icon={faDocker} size="3x"/>
-                    <h3>DevOps & Automation</h3>
-                    <p>Once the application is built, I help clients set up DevOps testing, CI/CD pipelines, and deployment automation to support the successful Go-Live.</p>
+                    <h3>Basic Game Development</h3>
+                    <p>Specialized in creating engaging 2D games using the Godot engine. With a strong focus on gameplay mechanics, character design, and level building, I have developed projects such as top-down dungeon crawlers and roguelikes.</p>
                     <div className="flex-chips">
                         <span className="chip-title">Tech stack:</span>
                         {labelsSecond.map((label, index) => (
@@ -73,8 +61,8 @@ function Expertise() {
 
                 <div className="skill">
                     <FontAwesomeIcon icon={faPython} size="3x"/>
-                    <h3>GenAI & LLM</h3>
-                    <p>Stay relevant in the market by leveraging the latest AI models in your projects. I have professional experience building enterprise grade GenAI-enabled solutions to empower intelligent decision making.</p>
+                    <h3>AI Tools and Integration</h3>
+                    <p>I am proficient in leveraging AI tools to enhance productivity, creativity, and development workflows. My knowledge spans a variety of tools and platforms, allowing me to efficiently integrate AI-powered solutions into projects.</p>
                     <div className="flex-chips">
                         <span className="chip-title">Tech stack:</span>
                         {labelsThird.map((label, index) => (
